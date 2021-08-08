@@ -1,0 +1,26 @@
+{
+  "name": "scoutgroupwebsite",
+  "version": "1.0.0",
+  "description": "a website for the 22nd meath donore scoutgroup",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkLynch101/ScoutGroupWebsite.git"
+  },
+  "author": "Mark lynch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkLynch101/ScoutGroupWebsite/issues"
+  },
+  "homepage": "https://github.com/MarkLynch101/ScoutGroupWebsite#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
