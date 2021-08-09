@@ -117,13 +117,35 @@ nav a:hover {
 .list-section {
     margin: 1.5em auto;
     max-width: 75%;
-    background-color: #6c6afc;
-    border: 5px solid #dde631;
     padding: 0 1.5em;
-    box-shadow: 5px 10px #888888;
 }
 
 .list-header {
     text-align: center;
-    color: #dde631;
+}
+
+.list {
+    list-style-type: none;
+    align-items: center;
+} 
+
+.list a {
+    text-decoration: none;
+    max-width: 75%;
+    width: 10em;
+    padding: 1.5em;
+}
+
+.list-item {
+    padding: 1.5em;
+    text-align: center;
+    margin: -0.5em;
+}
+
+.boot-buying-listing a{
+    background-image: url("images/placeholder.png");
+}
+
+.knife-buying-listing a{
+    background-image: url("images/placeholder.png");
 }
