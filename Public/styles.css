@@ -122,30 +122,59 @@ nav a:hover {
 
 .list-header {
     text-align: center;
+    text-decoration: underline;
 }
 
 .list {
     list-style-type: none;
     align-items: center;
+    margin-bottom: 7em;
+    margin-top: 3em;
 } 
 
-.list a {
-    text-decoration: none;
-    max-width: 75%;
-    width: 10em;
-    padding: 1.5em;
-}
+
 
 .list-item {
-    padding: 1.5em;
+    display: block;
     text-align: center;
-    margin: -0.5em;
+    padding: 1.5em;
+    margin-top: 1em;
+    background-size: contain;
+    border: 2px solid black;
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 3px black;
+    box-shadow: 2px 5px #444;
+    font-weight: bold;
 }
 
-.boot-buying-listing a{
-    background-image: url("images/placeholder.png");
+.list-item:hover {
+    display: block;
+    text-align: center;
+    padding: 1.5em;
+    margin-top: 1em;
+    background-size: contain;
+    border: 5px solid #e6cd2e;
+    color: #e6cd2e;
+    font-size: 2em;
+    text-shadow: 2px 3px black;
+    box-shadow: 2px 5px #444;
+    font-weight: bold;
+    background-image:none;
+    background-color: blue;
 }
 
-.knife-buying-listing a{
-    background-image: url("images/placeholder.png");
+
+.boot-buying-listing {
+    background-image: url("images/boots.png");
 }
+
+.knife-buying-listing {
+    background-image: url("images/kinfe.png");
+}
+
+.tent-buying-listing {
+    background-image: url("images/tent.png");
+}
+
+
