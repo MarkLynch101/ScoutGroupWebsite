@@ -177,4 +177,21 @@ nav a:hover {
     background-image: url("images/tent.png");
 }
 
+.contact-section > div {
+    margin: 1.5em 1.5em;
+    border: 2px solid black;
+    box-shadow: 2px 5px #444;
+}
+
+.contact-section h2{
+    text-align: center;
+
+}
+
+.contact-section a {
+    display: block ; 
+    text-align: center;
+    padding: 1.5em;
+}
+
 
